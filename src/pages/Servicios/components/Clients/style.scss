@@ -1,0 +1,19 @@
+.clients {
+    padding: 2rem 0;
+    background-color: #e0edf5;
+
+    .content-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+
+        .item-wrapper {
+            overflow: hidden;
+
+            img {
+                max-width: 6rem;
+            }
+        }
+    }
+}

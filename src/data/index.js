@@ -54,3 +54,10 @@ export const contactInfo = [
     { iconClassName: 'fa fa-envelope', text: 'administracion@agroagua.com.uy', link: 'mailto:administracion@agroagua.com.uy', id: '2' },
     { iconClassName: 'fab fa-facebook', text: '/Agroagua', link: 'https://www.facebook.com/Agroagua/', id: '3' }
 ]
+
+// Clients
+export const clientsData = [
+    { imgUrl: '../assets/clients/fulgum-fibres.jpg', id: '0' },
+    { imgUrl: '../assets/clients/conaprole.jpg', id: '1' },
+    { imgUrl: '../assets/clients/calpusa.jpg', id: '2' }
+]
