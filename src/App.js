@@ -6,6 +6,8 @@ import Servicios from './pages/Servicios'
 import Contacto from './pages/Contacto'
 
 import Nav from "./components/Nav"
+import Bottom from "./components/Bottom"
+import Footer from "./components/Footer"
 
 import './App.css'
 
@@ -22,6 +24,8 @@ function App() {
           <Route path="contacto" element={<Contacto />} />
         </Routes>
       </BrowserRouter>
+      <Bottom />
+      <Footer />
     </div>
   );
 }

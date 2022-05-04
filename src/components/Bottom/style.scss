@@ -1,0 +1,18 @@
+.bottom {
+    border-top: .05rem solid #ccc;
+
+    .content-wrapper {
+        margin: 2rem 0;
+        padding: 2rem 0;
+
+        .item-wrapper {
+            a {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+            }
+        }
+    }
+}
