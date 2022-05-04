@@ -1,5 +1,7 @@
+import LastsWorks from "../../components/LastsWorks"
+
 export default function Trabajos() {
     return (
-        <h1>Trabajos</h1>
+        <LastsWorks />
     )
 }
