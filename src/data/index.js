@@ -22,3 +22,14 @@ export const wappInfoHomeData = {
     link: 'https://api.whatsapp.com/send?phone=+598000000',
     bgImageUrl: '../assets/wapp-link-bg.jpg'
 }
+
+// Lasts works
+export const lastsWorks = [
+    { id: 0, imgUrl: '../assets/lasts-works/perforacion-1.jpg' },
+    { id: 1, imgUrl: '../assets/lasts-works/perforacion-2.jpeg' },
+    { id: 2, imgUrl: '../assets/lasts-works/perforacion-3.jpeg' },
+    { id: 3, imgUrl: '../assets/lasts-works/perforacion-4.jpeg' },
+    { id: 4, imgUrl: '../assets/lasts-works/perforacion-5.jpeg' },
+    { id: 5, imgUrl: '../assets/lasts-works/perforacion-6.png' },
+    { id: 6, imgUrl: '../assets/lasts-works/perforacion-7.png' }
+]
