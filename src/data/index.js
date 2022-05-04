@@ -13,3 +13,12 @@ export const aboutHomeData = {
     text: 'Nuestra empresa se encuentra empeñada en la mejora continua del servicio, a través del enriquecimiento del capital humano (mediante la capacitación), el cual es en definitiva el mayor patrimonio de nuestra empresa. Día a día enfrentamos nuevos y mayores emprendimientos impulsados por la confianza que nuestros clientes depositan en nosotros.',
     imgUrl: '../assets/about.jpeg'
 }
+
+// Wapp info home
+export const wappInfoHomeData = {
+    title: '¿Consultas?',
+    number: 'Whatsapp al 099 352 914',
+    button: 'Enviar mensaje',
+    link: 'https://api.whatsapp.com/send?phone=+598000000',
+    bgImageUrl: '../assets/wapp-link-bg.jpg'
+}
