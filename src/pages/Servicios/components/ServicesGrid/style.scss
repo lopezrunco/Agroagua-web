@@ -1,0 +1,29 @@
+.services-grid {
+    .content-wrapper {
+        margin: 2rem 0;
+        padding: 2rem 0;
+
+        .item-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+
+            .icon-wrapper {
+                background-color: #ccc;
+                width: 8rem;
+                height: 8rem;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .icon {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}

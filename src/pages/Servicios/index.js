@@ -1,5 +1,7 @@
+import ServicesGrid from "./components/ServicesGrid"
+
 export default function Servicios() {
     return (
-        <h1>Servicios</h1>
+        <ServicesGrid />
     )
 }
