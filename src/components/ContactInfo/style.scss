@@ -1,0 +1,20 @@
+.contact-info {
+    margin: 2rem 0;
+    padding: 2rem 0;
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        .item-wrapper {
+            a {
+                .icon {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

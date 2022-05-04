@@ -1,4 +1,5 @@
-import ContactForm from "../../components/ContactForm"
+import ContactForm from '../../components/ContactForm'
+import ContactInfo from '../../components/ContactInfo'
 
 export default function Contacto() {
     return (
@@ -8,7 +9,7 @@ export default function Contacto() {
                     <ContactForm />
                 </div>
                 <div className="col-lg-4">
-                    <p>Contact data</p>
+                    <ContactInfo />
                 </div>
             </div>
         </div>

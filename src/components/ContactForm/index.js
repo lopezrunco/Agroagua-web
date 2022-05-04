@@ -1,38 +1,32 @@
 import { useState } from 'react'
 import './style.scss'
 
+
 export default function ContactForm() {
     const [showAlert, setShowAlert] = useState(false)
 
-    async function handleSubmit(event) {
+    function handleSubmit(event) {
         event.preventDefault()
-        const form = new FormData(this)
-        const response = await fetch(this.action, {
-            method: this.method,
-            body: form,
-            headers: {
-                'Accept': 'application/json'
-            }
-        })
-        if (response.ok) {
-            this.reset()
-            setShowAlert(true)
-        }
+        console.log('Sent!')
     }
 
     return (
         <div className='contact-form'>
             <form id="form" method="POST" onSubmit={handleSubmit}>
                 <div className='row'>
-                    <div className='col-lg-4 group'>
+                    <div className='col-lg-6 group'>
                         <label htmlFor="name">Nombre: </label>
                         <input type="text" name="name" />
                     </div>
-                    <div className='col-lg-4 group'>
+                    <div className='col-lg-6 group'>
+                        <label htmlFor="lastname">Apellido: </label>
+                        <input type="text" name="lastname" />
+                    </div>
+                    <div className='col-lg-6 group'>
                         <label htmlFor="email">Email: </label>
                         <input type="email" name="email" />
                     </div>
-                    <div className='col-lg-4 group'>
+                    <div className='col-lg-6 group'>
                         <label htmlFor="tel">Teléfono: </label>
                         <input type='tel' name="tel" />
                     </div>
