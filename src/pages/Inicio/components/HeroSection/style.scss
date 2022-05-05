@@ -1,0 +1,32 @@
+@import '../../../../Variables.scss';
+
+.hero-section {
+    height: calc(100vh - 70px);
+    width: 100%;
+    overflow: hidden;
+    background-image: url('../../../../assets/home-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .overcolor {
+        height: 100%;
+        background-color: #c1e5fcb8;
+
+        .container.f-column {
+            justify-content: center;
+            align-items: center;
+            height: 90%;
+
+            .content-wrapper {
+                gap: 1rem;
+
+                h1 {
+                    span {
+                        color: $light-primary-color;
+                    }
+                }
+            }
+        }
+    }
+}

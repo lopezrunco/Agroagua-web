@@ -1,22 +1,22 @@
+@import '../../Variables.scss';
+
 .navigation {
-    height: 60px;
+    height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
     position: relative;
     padding: .5rem 0rem;
-    background-color: #fff;
-    color: black;
+    background-color: transparent;
+    color: $primary-color;
 
     .brand-name {
-        text-decoration: none;
-        color: black;
-        font-size: 1.3rem;
-        margin-left: 1rem;
+        display: flex;
+        margin-left: 0;
         overflow: hidden;
 
         img {
-            max-width: 200px;
+            max-width: 250px;
         }
     }
 
@@ -46,17 +46,17 @@
         width: 40px;
         padding: .5rem;
         border-radius: 50%;
-        background-color: #ccc;
         cursor: pointer;
-        transition: background-color 0.2s ease-in-out;
+        transition: $main-transition;
         position: absolute;
         top: 50%;
-        right: 25px;
+        right: 0;
         transform: translateY(-50%);
         display: none;
+        line-height: 0;
 
         &:hover {
-            background-color: #bbb;
+            background-color: $selection;
         }
     }
 }
@@ -70,14 +70,14 @@
         .navigation-menu {
             ul {
                 display: none;
-                position: absolute;
-                top: 60px; // navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar)
+                position: fixed;
+                top: 70px; // navigation menu is positioned to start 70px from the top of the document (which is directly below the navbar)
                 left: 0;
                 flex-direction: column; // stacks the li tags vertically
                 width: 100%; // makes menu span full height and width
-                height: calc(100vh - 77px);
+                height: 100vh;
                 background-color: white;
-                border-top: 1px solid black;
+                border-top: $border;
 
                 li {
                     text-align: center; // centers link text and strips off margin

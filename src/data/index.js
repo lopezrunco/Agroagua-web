@@ -61,3 +61,14 @@ export const clientsData = [
     { imgUrl: '../assets/clients/conaprole.jpg', id: '1' },
     { imgUrl: '../assets/clients/calpusa.jpg', id: '2' }
 ]
+
+// Hero section
+export const heroSectionData = {
+    title: 'Una empresa líder en ',
+    titleSpan: 'perforaciones en Uruguay',
+    text: 'Contamos con una amplia experiencia trabajando a lo largo y ancho del país',
+    mainButton: 'Ver nuestros servicios',
+    mainButtonLink: '/servicios',
+    secondaryButton: 'Contacto',
+    secondaryButtonLink: '/contacto'
+}
