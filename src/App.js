@@ -9,12 +9,11 @@ import Nav from "./components/Nav"
 import Bottom from "./components/Bottom"
 import Footer from "./components/Footer"
 
-import './App.css'
+import './App.scss'
 
 function App() {
   return (
     <div className="App">
-      <h1>Agro agua</h1>
       <Nav />
       <BrowserRouter>
         <Routes>
