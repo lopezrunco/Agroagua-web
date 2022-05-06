@@ -3,19 +3,21 @@ import './style.scss'
 
 export default function Services() {
     return (
-        <div className='about-home'>
+        <section className='about-home'>
             <div className='container'>
                 <div className='row content-wrapper'>
                     <div className='col-lg-6 item-wrapper'>
-                        <h5>{aboutHomeData.subtitle}</h5>
-                        <h2>{aboutHomeData.title}</h2>
-                        <p>{aboutHomeData.text}</p>
+                        <div className='section-title'>
+                            <h2 className='title'>{aboutHomeData.title}</h2>
+                            <h3 className='subtitle'>{aboutHomeData.subtitle}</h3>
+                        </div>
+                        <p className='featured-text'><span className='featured-text-mark'> | </span>{aboutHomeData.text}</p>
                     </div>
                     <div className='col-lg-6 item-wrapper'>
                         <img src={aboutHomeData.imgUrl} alt='Agro agua' />
                     </div>
                 </div>
             </div>
-        </div >
+        </section >
     )
 }

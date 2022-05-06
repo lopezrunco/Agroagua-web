@@ -62,7 +62,7 @@ h2 {
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 2.2rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.85rem;
 }
 
 h3 {
@@ -105,6 +105,16 @@ p {
   text-align: left;
 }
 
+.featured-text {
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 1.5;
+
+  .featured-text-mark {
+    color: $light-primary-color;
+    font-weight: 900;
+  }
+}
 
 small {
   font-size: 0.75rem;
@@ -124,7 +134,6 @@ a {
   }
 }
 
-
 @media screen and (max-width: 992px) {
 
   h1,
@@ -138,6 +147,32 @@ a {
   span.category,
   span.author {
     text-align: center;
+  }
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  h2.title {
+    text-transform: uppercase;
+  }
+
+  h3.subtitle {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: $primary-color;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-title {
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
   }
 }
 
@@ -201,5 +236,5 @@ a {
 
 // Spacing
 section {
-  padding: 3rem 0;
+  padding: 5rem 0;
 }

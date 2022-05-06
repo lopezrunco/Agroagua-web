@@ -16,7 +16,7 @@ export const aboutHomeData = {
     subtitle: '¿Quiénes somos?',
     title: 'Nuestra empresa',
     text: 'Nuestra empresa se encuentra empeñada en la mejora continua del servicio, a través del enriquecimiento del capital humano (mediante la capacitación), el cual es en definitiva el mayor patrimonio de nuestra empresa. Día a día enfrentamos nuevos y mayores emprendimientos impulsados por la confianza que nuestros clientes depositan en nosotros.',
-    imgUrl: '../assets/about.jpeg'
+    imgUrl: '../assets/about.jpg'
 }
 
 // Wapp info home

@@ -1,18 +1,27 @@
+@import '../../../../Variables.scss';
+
 .about-home {
     .content-wrapper {
-        border: .05rem solid #ccc;
-        border-radius: .2rem;
-        margin: 2rem 0;
-        padding: 2rem 0;
+        gap: 2rem;
 
         .item-wrapper {
-            text-align: center;
             overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
             img {
                 width: 100%;
-                border-radius: .2rem;
+                border-radius: $border-radius-cards;
             }
+        }
+    }
+}
+
+@media screen and (min-width: 992px)  {
+    .about-home {
+        .content-wrapper {
+            gap: 0;
         }
     }
 }
