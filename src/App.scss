@@ -45,7 +45,7 @@ span.category,
 span.author {
   font-family: 'Dosis', sans-serif;
   color: $dark-text;
-  text-align: left;
+  text-align: center;
   margin: 0;
 }
 
@@ -126,6 +126,7 @@ a {
 
 
 @media screen and (max-width: 992px) {
+
   h1,
   h2,
   h3,
@@ -140,3 +141,60 @@ a {
   }
 }
 
+// Buttons
+.button {
+  padding: 0.7em 1.764em;
+  font-size: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.37rem;
+  letter-spacing: 1px;
+  border-radius: $border-radius;
+  transition: $main-transition;
+}
+
+.button-lg {
+  font-size: 1.25rem;
+}
+
+.button-md {
+  font-size: 1.2rem;
+}
+
+.button-sm {
+  font-size: 1rem;
+}
+
+.primary-button {
+  background-color: $primary-color;
+  color: $white-text;
+
+  &:hover {
+    background-color: $dark-primary-color;
+    color: $white-text;
+    box-shadow: 0 5px 5px 0 rgb(41 112 250 / 25%);
+  }
+}
+
+.primary-button-outline {
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  font-weight: 600;
+
+  &:hover {
+    background-color: $primary-color;
+    color: $white-text;
+  }
+}
+
+.secondary-button {
+  background-color: $white-bg;
+  color: $dark-text;
+  font-weight: 400;
+
+  &:hover {
+    color: $primary-color;
+    box-shadow: 0 5px 5px 0 rgb(41 112 250 / 25%);
+  }
+}
