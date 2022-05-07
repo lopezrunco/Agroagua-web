@@ -1,7 +1,7 @@
 import Services from './components/Services'
 import About from './components/About'
 import WhatsappLink from './components/WhatsappLink'
-import LastsWorks from '../../components/LastsWorks'
+import LastsWorksHome from '../../components/LastsWorksHome'
 import HeroSection from './components/HeroSection'
 
 export default function Inicio() {
@@ -11,7 +11,7 @@ export default function Inicio() {
             <Services />
             <About />
             <WhatsappLink />
-            <LastsWorks />
+            <LastsWorksHome />
         </>
     )
 }

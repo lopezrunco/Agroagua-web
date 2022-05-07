@@ -2,7 +2,7 @@ import { lastsWorks } from '../../data'
 import LatestWorkItem from '../LatestWorkItem'
 import './style.scss'
 
-export default function LastsWorks() {
+export default function LastsWorksHome() {
     return (
         <section className='lasts-works-home-grid'>
             <div className='container'>

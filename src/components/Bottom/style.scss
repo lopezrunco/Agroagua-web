@@ -1,8 +1,14 @@
+@import '../../Variables.scss';
+
+.bottom-curvy-border {
+    margin-bottom: -1.4rem;
+}
+
 .bottom {
-    border-top: .05rem solid #ccc;
+    background-color: $dark-bg;
+    color: $white-text;
 
     .content-wrapper {
-        margin: 2rem 0;
         padding: 2rem 0;
 
         .item-wrapper {
@@ -12,6 +18,19 @@
                 justify-content: center;
                 align-items: center;
                 gap: 1rem;
+
+                i{
+                    color: $primary-color;
+                }
+                
+                p {
+                    font-family: 'Dosis', sans-serif;
+                    font-weight: 500;
+                    line-height: 19px;
+                    letter-spacing: 1px;
+                    text-decoration: none;
+                    color: $white-text;
+                }
             }
         }
     }

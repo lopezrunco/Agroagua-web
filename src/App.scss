@@ -116,7 +116,7 @@ p {
 }
 
 small {
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   letter-spacing: 0.5px;
   line-height: 1.025rem;
   color: $white-text;
@@ -188,6 +188,7 @@ a {
   line-height: 1.37rem;
   letter-spacing: 1px;
   transition: $main-transition;
+  width: auto;
 }
 
 .button-lg {

@@ -1,22 +1,24 @@
-footer {
-    border-top: .05rem solid #ccc;
-    margin: 2rem 0;
-    padding: 2rem 0;
+@import '../../Variables.scss';
 
+footer.footer {
+    background-color: $dark-bg;
+    font-family: 'Dosis', sans-serif;
+    
     .content-wrapper {
+        padding: 2rem 0;
+        border-top: $border;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: .5rem;
     }
 }
 
 @media screen and (min-width: 992px) {
-    footer {
+    footer.footer {
         .content-wrapper {
             flex-direction: row;
-            justify-content: space-between;
         }
     }
 }
