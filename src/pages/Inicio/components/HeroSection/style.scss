@@ -40,14 +40,13 @@
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    gap: 1rem;
                 }
             }
         }
     }
 }
 
-.curvy-border {
+.hero-curvy-border{
     position: absolute;
     bottom: -28px;
 
@@ -81,13 +80,14 @@
 
                     .button-group {
                         flex-direction: row;
+                        gap: 1rem;
                     }
                 }
             }
         }
     }
 
-    .curvy-border {
+    .hero-curvy-border {
         bottom: -256px;
     }
 }

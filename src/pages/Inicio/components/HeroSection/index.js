@@ -19,7 +19,7 @@ export default function HeroSection() {
                 </div>
             </div>
         </div>
-        <div className='curvy-border'>
+        <div className='hero-curvy-border'>
             <img src={borderImg} alt='Agro agua' />
         </div>
         </>
