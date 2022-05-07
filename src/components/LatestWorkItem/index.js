@@ -4,7 +4,7 @@ import './style.scss'
 export default function LatestWorkItem(props) {
     const [openImage, setOpenImage] = useState(false)
     const handleClick = () => setOpenImage(!openImage)
-    openImage ? document.body.style.overflow = "hidden" : document.body.style.overflow = "scroll"
+    openImage ? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto"
 
     return (
         <>
