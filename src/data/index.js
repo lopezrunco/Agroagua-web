@@ -50,9 +50,9 @@ export const contactInfo = [
 
 // Clients
 export const clientsData = [
-    { imgUrl: '../assets/clients/fulgum-fibres.jpg', id: '0' },
-    { imgUrl: '../assets/clients/conaprole.jpg', id: '1' },
-    { imgUrl: '../assets/clients/calpusa.jpg', id: '2' }
+    { imgUrl: '../assets/clients/fulgum-fibres.jpg', link: 'http://www.ffcsa.cl/', name: 'Fulgum Fibres', id: '0' },
+    { imgUrl: '../assets/clients/conaprole.png', link: 'https://www.conaprole.uy/', name: 'Conaprole', id: '1' },
+    { imgUrl: '../assets/clients/calpusa.png', link: 'https://es-la.facebook.com/calpusauruguay/', name: 'Calpusa', id: '2' }
 ]
 
 // Hero section

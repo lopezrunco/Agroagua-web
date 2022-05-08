@@ -1,5 +1,5 @@
-import { lastsWorks } from '../../data'
-import LatestWorkItem from '../LatestWorkItem'
+import { lastsWorks } from '../../../../data'
+import LatestWorkItem from '../../../../components/LatestWorkItem'
 import './style.scss'
 
 export default function LastsWorksHome() {
