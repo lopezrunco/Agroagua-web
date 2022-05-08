@@ -1,3 +1,5 @@
+@import '../../../../Variables.scss';
+
 .services-grid {
     .content-wrapper {
         margin: 2rem 0;
@@ -8,21 +10,26 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 1rem;
-            margin-bottom: 3rem;
+            gap: 1.5rem;
+            padding: 3rem;
+            margin-bottom: 1.5rem;
+            border-radius: $border-radius-cards;
+            box-shadow: $box-shadow;
+            background-color: $white-bg;
 
-            .icon-wrapper {
-                background-color: #ccc;
-                width: 8rem;
-                height: 8rem;
-                border-radius: 50%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+            .icon {
+                font-size: 4rem;
+                color: $dark-primary-color;
+            }
 
-                .icon {
-                    font-size: 3rem;
-                }
+            h5 {
+                margin-bottom: 0;
+                color: $light-primary-color;
+            }
+
+            p {
+                color: $light-text;
+                text-align: center;
             }
         }
     }

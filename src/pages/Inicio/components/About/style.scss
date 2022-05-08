@@ -18,10 +18,20 @@
     }
 }
 
-@media screen and (min-width: 992px)  {
+@media screen and (min-width: 992px) {
     .about-home {
         .content-wrapper {
             gap: 0;
+
+            .item-wrapper {
+                align-items: flex-start;
+
+                .section-title {
+                    h3.subtitle {
+                        align-self: flex-start;
+                    }
+                }
+            }
         }
     }
 }

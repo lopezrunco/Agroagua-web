@@ -4,9 +4,9 @@ export const servicesPageData = [
     { iconClassName: 'fa fa-tint', title: 'Automatismos', text: 'Especializados en la automatización de equipos de todo tipo de sistemas de agua, tanto en industria como agro.', id: '1' },
     { iconClassName: 'fas fa-cog', title: 'Perforaciones', text: 'Realización de todo lo referente a la ubicación y alumbramiento de de agua y realización del estudio geológico.', id: '2' },
     { iconClassName: 'fas fa-map', title: 'Embalses y lagunas', text: 'Estudio, proyecto y construcción de embalses de agua.', id: '3' },
-    { iconClassName: 'fas fa-fire-alt', title: 'Redes de incendios', text: 'Proyecto, suministro e instalación de redes de incendio (Certificación de bomberos). Servicio de atención y mantenimiento post venta.', id: '4' },
+    { iconClassName: 'fas fa-fire-alt', title: 'Redes de incendios', text: 'Proyecto, suministro e instalación de redes de incendio.', id: '4' },
     { iconClassName: 'fas fa-database', title: 'Tanques y bebederos', text: 'Tanques australianos, tanques de polietileno y PRFV y bebederos.', id: '5' },
-    { iconClassName: 'fas fa-hand-holding-water', title: 'Riegos', text: 'Proyecto, suministro e instalación de sistemas de riego en el ámbito agropecuario, de la misma forma en empresas industriales y residencias).', id: '6' },
+    { iconClassName: 'fas fa-hand-holding-water', title: 'Riegos', text: 'Realizamos proyecto, suministro e instalación de sistemas de riego en el ámbito agropecuario, de la misma forma en empresas industriales y residencias).', id: '6' },
     { iconClassName: 'fa fa-city', title: 'Urbanizaciones', text: 'Nuestro equipo de profesionales resuelve todo lo referente al proyecto, trámites ante oficinas estatales y ejecución de las obras de infraestructura.', id: '7' },
     { iconClassName: 'fa fa-pencil-alt', title: 'Fraccionamientos', text: 'Proyecto, trámites y ejecución de obras. Opción válida para la viabilidad comercial de fracciones de pequeño y gran tamaño, tanto  en el ámbito rural y/o urbano.', id: '8' },
 ]
