@@ -5,6 +5,7 @@ import './style.scss'
 
 export default function Nav() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
+    isNavExpanded ? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto"
 
     return (
         <div className='container border-bottom'>

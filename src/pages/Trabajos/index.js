@@ -1,7 +1,7 @@
-import LastsWorksHome from "../Inicio/components/LastsWorksHome"
+import LastsWorks from "./components/LastsWorks"
 
 export default function Trabajos() {
     return (
-        <LastsWorksHome />
+        <LastsWorks />
     )
 }
