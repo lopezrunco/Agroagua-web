@@ -8,7 +8,7 @@ export default function ServicesGrid() {
                 <div className='row'>
                     <div className='col-12 section-title'>
                         <h2 className='title'>Nuestros servicios</h2>
-                        <h3 className='subtitle'>¿Qué ofrecemos?</h3>
+                        <div className='separator'></div>
                     </div>
                 </div>
                 <div className='row content-wrapper'>

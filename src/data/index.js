@@ -48,6 +48,17 @@ export const contactInfo = [
     { iconClassName: 'fab fa-facebook', text: '/Agroagua', link: 'https://www.facebook.com/Agroagua/', id: '3' }
 ]
 
+// Opening Hours
+export const openingHoursInfo = [
+    { day: 'Lunes', hours: '8:00 a 20:00' },
+    { day: 'Martes', hours: '8:00 a 20:00' },
+    { day: 'Miércoles', hours: '8:00 a 20:00' },
+    { day: 'Jueves', hours: '8:00 a 20:00' },
+    { day: 'Viernes', hours: '8:00 a 20:00' },
+    { day: 'Sábado', hours: '8:00 a 12:00' },
+    { day: 'Domingo', hours: 'Cerrado' }
+]
+
 // Clients
 export const clientsData = [
     { imgUrl: '../assets/clients/fulgum-fibres.jpg', link: 'http://www.ffcsa.cl/', name: 'Fulgum Fibres', id: '0' },
