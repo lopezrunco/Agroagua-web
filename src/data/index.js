@@ -44,7 +44,7 @@ export const lastsWorks = [
 export const contactInfo = [
     { iconClassName: 'fas fa-map-marker-alt', text: 'Ruta 5 km 98.500 Florida, Uruguay', link: 'https://goo.gl/maps/oZxFMqGjxWR8DG3Q9', id: '0' },
     { iconClassName: 'fas fa-phone-alt', text: '(+598) 99 352 914', link: 'tel:+59899352914', id: '1' },
-    { iconClassName: 'fa fa-envelope', text: 'administracion@agroagua.com.uy', link: 'mailto:administracion@agroagua.com.uy', id: '2' },
+    { iconClassName: 'fa fa-envelope', text: 'info@agroagua.com.uy', link: 'mailto:info@agroagua.com.uy', id: '2' },
     { iconClassName: 'fab fa-facebook', text: '/Agroagua', link: 'https://www.facebook.com/Agroagua/', id: '3' }
 ]
 

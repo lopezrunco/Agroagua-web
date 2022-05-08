@@ -1,5 +1,6 @@
 import ContactForm from '../../components/ContactForm'
 import ContactInfo from '../../components/ContactInfo'
+import Map from './components/Map'
 
 export default function Contacto() {
     return (
@@ -16,6 +17,11 @@ export default function Contacto() {
                 </div>
                 <div className="col-lg-6">
                     <ContactInfo />
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-12'>
+                    <Map />
                 </div>
             </div>
         </section>
